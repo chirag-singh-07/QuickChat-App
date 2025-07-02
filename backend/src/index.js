@@ -25,7 +25,7 @@ app.use(
 ); // Enable CORS for all routes
 
 connectDB();
-cronJob()
+cronJob.start();
 
 // Routes
 app.use("/api/auth", authRoutes);

@@ -27,6 +27,6 @@ const cronJob = new cron.CronJob("*/14 * * * *", () => {
 });
 
 // ✅ Important: Start the job
-cronJob.start();
+
 
 export default cronJob;
